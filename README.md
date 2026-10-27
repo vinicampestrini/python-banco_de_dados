@@ -45,7 +45,7 @@ git clone https://github.com/vinicampestrini/python-banco_de_dados.git
 Entre na pasta do projeto:
 
 ```bash
-cd petshop-crud-python
+cd python-banco_de_dados
 ```
 
 ### 3. Instale as dependências
