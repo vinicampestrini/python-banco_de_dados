@@ -62,8 +62,6 @@ No arquivo `principal.py`, configure os dados de conexão com o Oracle Database:
 - Senha.
 - DSN de conexão.
 
-**Importante:** não publique credenciais reais no repositório.
-
 ### 5. Execute o programa
 
 ```bash
