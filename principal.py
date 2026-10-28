@@ -17,10 +17,10 @@ dsn = ""  # Adicione o DSN de conexão do Oracle
 
 try:
     conn = oracledb.connect(user = usuario, password = senha, dsn= dsn)
-    inst_cadastro = conn.cursor() # Cia um cursor para cadastro - Entende comandos sql
-    inst_consulta = conn.cursor() # Cia um cursor para cadastro - Entende comandos sql
-    inst_alteracao = conn.cursor() # Cia um cursor para cadastro - Entende comandos sql
-    inst_exclusao = conn.cursor() # Cia um cursor para cadastro - Entende comandos sql
+    inst_cadastro = conn.cursor() # Cria um cursor para cadastro - Entende comandos sql
+    inst_consulta = conn.cursor() # Cria um cursor para cadastro - Entende comandos sql
+    inst_alteracao = conn.cursor() # Cria um cursor para cadastro - Entende comandos sql
+    inst_exclusao = conn.cursor() # Cria um cursor para cadastro - Entende comandos sql
 
 except Exception as e:
     print("ERRO: ", e)
